@@ -11,8 +11,11 @@
         return a + b;
     }
 
-    const sumarF = ( a:number, b:number ) => a + b;
+    //const sumarF = ( a:number, b:number ) => a + b;
+    //Definiendo el tipo de retorno
+    const sumarF = ( a:number, b:number ):number => a + b;
 
+    const nombre = ( ): string => 'Hola Luisa';
 
     const hulk = {
         nombre: 'Hulk',
